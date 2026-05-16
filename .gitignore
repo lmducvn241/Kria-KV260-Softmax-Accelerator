@@ -1,0 +1,88 @@
+# ============================================================
+# .gitignore — Softmax IP KV260 Project
+# ============================================================
+
+# ── Vivado project files (không commit project, chỉ commit source) ──
+*.xpr
+*.xsa
+*.runs/
+*.ip_user_files/
+*.cache/
+*.hw/
+*.sim/
+*.str
+*.jou
+*.log
+*.pb
+*.wdb
+*.vcd
+*.saif
+vivado_*.backup.jou
+vivado_*.backup.log
+webtalk*.xml
+.Xil/
+
+# ── Bitstream (upload lên GitHub Releases, không commit trực tiếp) ──
+*.bit
+*.bin
+*.ltx
+*.mcs
+*.prm
+
+# Ngoại lệ: file .hwh cần thiết cho PYNQ → giữ lại
+!*.hwh
+
+# ── Synthesis / Implementation output nặng ──
+*.dcp          # Design checkpoint (có thể rất lớn)
+*.edf
+*.ncd
+*.ngd
+*.ngr
+*.pcf
+*.ptwx
+*.twr
+*.twx
+*.unroutes
+*.xpi
+
+# ── Python / Jupyter ──
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# ── Data files lớn (upload lên Releases hoặc Google Drive) ──
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.pt
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Báo cáo Vivado dạng XML nặng (chỉ giữ .rpt và .xlsx) ──
+*.xml
+!docs/**/*.xml
+
+# ── Các file tạm khác ──
+*.tmp
+*.bak
+*.orig
