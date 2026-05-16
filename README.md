@@ -283,9 +283,9 @@ Nếu sử dụng mã nguồn hoặc kết quả trong nghiên cứu của bạn
   author  = {Lê Minh Đức},
   title   = {Thiết kế và Thực thi Lõi Gia tốc Softmax trên Nền tảng FPGA Kria KV260},
   school  = {Trường Đại học Bách Khoa, ĐHQG-HCM},
-  year    = {2025},
+  year    = {2026},
   advisor = {Trương Quang Vinh},
-  type    = {Luận văn Thạc sĩ Kỹ thuật Điện tử}
+  type    = {Luận văn Thạc sĩ Thiết kế vi mạch}
 }
 ```
 
