@@ -2,7 +2,7 @@
 # .gitignore — Softmax IP KV260 Project
 # ============================================================
 
-# ── Vivado project files (không commit project, chỉ commit source) ──
+# ── Vivado project files ──
 *.xpr
 *.xsa
 *.runs/
@@ -22,18 +22,18 @@ vivado_*.backup.log
 webtalk*.xml
 .Xil/
 
-# ── Bitstream (upload lên GitHub Releases, không commit trực tiếp) ──
+# ── Bitstream  ──
 *.bit
 *.bin
 *.ltx
 *.mcs
 *.prm
 
-# Ngoại lệ: file .hwh cần thiết cho PYNQ → giữ lại
+# Ngoại lệ: file .hwh cần thiết cho PYNQ 
 !*.hwh
 
 # ── Synthesis / Implementation output nặng ──
-*.dcp          # Design checkpoint (có thể rất lớn)
+*.dcp          
 *.edf
 *.ncd
 *.ngd
@@ -57,7 +57,7 @@ build/
 venv/
 env/
 
-# ── Data files lớn (upload lên Releases hoặc Google Drive) ──
+# ── Data files lớn ──
 *.npz
 *.npy
 *.h5
@@ -78,7 +78,7 @@ desktop.ini
 *.swo
 *~
 
-# ── Báo cáo Vivado dạng XML nặng (chỉ giữ .rpt và .xlsx) ──
+# ── Báo cáo Vivado dạng XML ──
 *.xml
 !docs/**/*.xml
 
