@@ -20,8 +20,8 @@
 
 **Tác giả:** Lê Minh Đức — MSSV: 2470451  
 **Người hướng dẫn:** PGS. TS. Trương Quang Vinh  
-**Cơ sở đào tạo:** Trường Đại học Bách Khoa, ĐHQG-HCM  
-**Năm:** 2025
+**Cơ sở đào tạo:** Trường Đại học Bách Khoa, ĐHQG-TP.HCM  
+**Năm:** 2026
 
 > **Luận văn Thạc sĩ:** *Thiết kế và Thực thi Lõi Gia tốc Softmax trên Nền tảng FPGA Kria KV260*
 
