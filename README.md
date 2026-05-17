@@ -238,7 +238,7 @@ Mở notebook phù hợp và chạy tuần tự từng cell:
 | Tham số | Giá trị |
 |---|---|
 | Tần số hoạt động | 333 MHz |
-| WNS (Worst Negative Slack) | > 0 ns (timing đạt) |
+| WNS (Worst Negative Slack) | > 0 ns (MET) |
 | Thông lượng (K=10) | 8 phần tử/chu kỳ × 333 MHz |
 | Độ trễ pipeline | 21 chu kỳ |
 | Công suất tiêu thụ | Xem `rpt/power/` |
@@ -247,11 +247,9 @@ Mở notebook phù hợp và chạy tuần tự từng cell:
 
 | Tập dữ liệu | HW_eq_GT (Argmax) | MAE | KL trung bình |
 |---|---|---|---|
-| MNIST (K=10) | 98.21% | 4.45×10<sup>⁻5</sup> | 2.55×10<sup>⁻4</sup> |
+| MNIST (K=10) | 98.21% | 4.45×10<sup>-5</sup> | 2.55×10<sup>-4</sup> |
 | CIFAR-100 (K=100) | 73.98% | 1.3x10<sup>-4</sup> | 3.42x10<sup>-3</sup> |
 | ImageNet-1K (K=1000) | 72.35% | 1.09x10<sup>-3</sup> | 8.27x10<sup>-1</sup> |
-
-> *Điền số liệu chính xác từ file CSV sau khi chạy notebook. Xem thêm trong `results/`.*
 
 ---
 
@@ -279,10 +277,10 @@ report_power -file rpt/power/power_summary.rpt
 Nếu sử dụng mã nguồn hoặc kết quả trong nghiên cứu của bạn, vui lòng trích dẫn:
 
 ```bibtex
-@mastersthesis{lmduc.softmaxIP2026,
+@mastersthesis{lmduc.hcmut.softmaxIP2026,
   author  = {Lê Minh Đức},
   title   = {Thiết kế và Thực thi Lõi Gia tốc Softmax trên Nền tảng FPGA Kria KV260},
-  school  = {Trường Đại học Bách Khoa, ĐHQG-HCM},
+  school  = {Trường Đại học Bách Khoa, ĐHQG-TP.HCM},
   year    = {2026},
   advisor = {Trương Quang Vinh},
   type    = {Luận văn Thạc sĩ Thiết kế vi mạch}
