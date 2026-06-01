@@ -50,7 +50,7 @@ module tb_softmax_v6;
         ADDR_PERF_P2      = 7'h20,
         ADDR_PERF_STALL   = 7'h28,
         ADDR_K_CONFIG     = 7'h30,
-        ADDR_PERF_COMPUTE = 7'h38;
+        ADDR_PERF_COMPUTE = 7'h34;
 
     localparam integer BP_NONE   = 0;
     localparam integer BP_RANDOM = 1;
